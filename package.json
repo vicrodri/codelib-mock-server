@@ -1,0 +1,31 @@
+{
+  "name": "codelib-mock-server",
+  "version": "1.0.0",
+  "description": "CodeLib mock server\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[DJSON server",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vicrodri/codelib-mock-server.git"
+  },
+  "keywords": [
+    "JSON"
+  ],
+  "author": "vicrodri",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vicrodri/codelib-mock-server/issues"
+  },
+  "homepage": "https://github.com/vicrodri/codelib-mock-server#readme",
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "json-server": "^0.17.4",
+    "json-server-auth": "^2.1.0"
+  }
+}
